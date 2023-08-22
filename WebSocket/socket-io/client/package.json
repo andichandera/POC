@@ -1,0 +1,21 @@
+{
+  "name": "socket-io-client",
+  "version": "1.0.0",
+  "description": "Socker IO Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Socket",
+    "IO"
+  ],
+  "author": "Andi Chandera",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "type": "module"
+}

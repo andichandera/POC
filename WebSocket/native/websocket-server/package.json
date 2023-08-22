@@ -1,0 +1,20 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "Native Websocket Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "WebSocket",
+    "Server"
+  ],
+  "author": "Andi Chandera",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "type": "module"
+}
