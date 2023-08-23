@@ -10,3 +10,7 @@ socket.on("hello from server", (...args) => {
   console.log(args[0]);
   // ...
 });
+
+socket.on("global greeting", (...args) => {
+  console.log(`Hi Global, I'm Client 1 : ${args[0]}`);
+});
