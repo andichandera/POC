@@ -14,6 +14,15 @@ io.on("connection", (socket) => {
   socket.on("disconnect", () => {
     console.log("user disconnected");
   });
+  socket.on("chat message", (msg) => {
+    io.emit("chat message", `Broadcasting from Server : ${msg}`);
+    console.log("message: " + msg);
+  });
+});
+
+app.get("/sent-data", (req, res) => {
+  io.emit("chat message", `Somebody fetch the data !`);
+  res.status(200).send("Sukses !");
 });
 
 server.listen(3000, () => {
