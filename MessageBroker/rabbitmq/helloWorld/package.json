@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello World RabbitMQ",
+  "main": "receive.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Andi Chandera",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

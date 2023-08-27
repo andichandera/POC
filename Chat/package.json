@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "Chat",
+    "Apps"
+  ],
+  "author": "Andi Chandera",
+  "license": "ISC",
+  "type": "module"
+}
